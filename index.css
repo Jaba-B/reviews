@@ -4,6 +4,7 @@ body {
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .nav {
@@ -29,4 +30,69 @@ body {
 .nav-img {
     height: 5rem;
     width: auto;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 20rem;
+}
+
+.section-img {
+    height: 10rem;
+    width: 10rem;
+}
+
+h2 {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-btn {
+    width: 5rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+    margin: 0rem 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-a {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-a:hover,
+.footer-a:active {
+    text-shadow: 0.4rem 0.4rem 0.4rem blue;
 }
