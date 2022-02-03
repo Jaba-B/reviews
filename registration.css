@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(250, 248, 248), rgb(110, 110, 110));
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.nav-a {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-a:hover,
+.nav-a:active {
+    text-shadow: 0.4rem 0.4rem 0.4rem black;
+}
+
+.nav-img {
+    height: 5rem;
+    width: auto;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.2rem solid black;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-a {
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-a:hover,
+.footer-a:active {
+    text-shadow: 0.4rem 0.4rem 0.4rem blue;
+}
