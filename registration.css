@@ -53,6 +53,12 @@ form {
     font-weight: bold;
 }
 
+button {
+    width: 5rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+}
+
 footer {
     display: flex;
     justify-content: center;
