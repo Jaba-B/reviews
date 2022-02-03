@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url(background.jpg);
+    background: linear-gradient(rgb(250, 248, 248), rgb(110, 110, 110));
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -17,14 +17,14 @@ body {
 
 .nav-a {
     font-size: large;
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 .nav-a:hover,
 .nav-a:active {
-    text-shadow: 0.4rem 0.4rem 0.4rem blue;
+    text-shadow: 0.4rem 0.4rem 0.4rem black;
 }
 
 .nav-img {
@@ -41,6 +41,7 @@ main {
 
 section {
     width: 20rem;
+    border: 0.2rem solid black;
 }
 
 .section-img {
@@ -50,13 +51,13 @@ section {
 
 h2 {
     font-size: large;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 h3 {
     font-size: large;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -73,6 +74,17 @@ section {
     margin: 0rem 2rem;
 }
 
+#section-img {
+    height: 10rem;
+    width: auto;
+}
+
+.section-span {
+    font-size: medium;
+    color: blue;
+    font-weight: bold;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -81,13 +93,13 @@ footer {
 
 .footer-p {
     font-size: large;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 .footer-a {
     font-size: large;
-    color: white;
+    color: blue;
     font-weight: bold;
     text-decoration: none;
 }
